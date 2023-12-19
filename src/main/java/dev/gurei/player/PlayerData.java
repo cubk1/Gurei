@@ -1,8 +1,8 @@
-package org.union4dev.anticheat.player;
+package dev.gurei.player;
 
 import com.github.retrooper.packetevents.protocol.player.User;
-import org.union4dev.anticheat.manager.DetectorManager;
-import org.union4dev.anticheat.manager.TeleportManager;
+import dev.gurei.manager.TeleportManager;
+import dev.gurei.manager.DetectorManager;
 
 import java.util.UUID;
 

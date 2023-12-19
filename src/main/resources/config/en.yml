@@ -6,4 +6,4 @@ flag-logger:
   # %detector% -> Detector name
   # %vl% -> Cheat violations
   # %detail% Detect detail
-  log-style: "%player% failed %detector% check vl=%vl%"
+  log-style: "%player% failed %detector% check vl=%vl% %detail%"

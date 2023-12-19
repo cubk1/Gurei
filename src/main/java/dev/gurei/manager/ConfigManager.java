@@ -1,10 +1,10 @@
-package org.union4dev.anticheat.manager;
+package dev.gurei.manager;
 
 import github.scarsz.configuralize.DynamicConfig;
 import github.scarsz.configuralize.Language;
 import github.scarsz.configuralize.ParseException;
-import org.union4dev.anticheat.AntiCheat;
-import org.union4dev.anticheat.AntiCheatAPI;
+import dev.gurei.Gurei;
+import dev.gurei.AntiCheatAPI;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,8 +20,8 @@ public class ConfigManager {
             }
         }
         config = new DynamicConfig();
-        config.addSource(AntiCheat.class, "config", new File(AntiCheatAPI.getInstance().getPlugin().getDataFolder(), "config.yml"));
-        config.addSource(AntiCheat.class, "detection", new File(AntiCheatAPI.getInstance().getPlugin().getDataFolder(), "detection.yml"));
+        config.addSource(Gurei.class, "config", new File(AntiCheatAPI.getInstance().getPlugin().getDataFolder(), "config.yml"));
+        config.addSource(Gurei.class, "detection", new File(AntiCheatAPI.getInstance().getPlugin().getDataFolder(), "detection.yml"));
 
         load();
     }

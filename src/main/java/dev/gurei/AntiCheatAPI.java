@@ -1,13 +1,13 @@
-package org.union4dev.anticheat;
+package dev.gurei;
 
 import com.github.retrooper.packetevents.PacketEvents;
 import com.github.retrooper.packetevents.protocol.player.User;
+import dev.gurei.listener.ConnectionListener;
+import dev.gurei.listener.PacketListener;
+import dev.gurei.manager.ConfigManager;
+import dev.gurei.player.PlayerData;
 import io.github.retrooper.packetevents.factory.spigot.SpigotPacketEventsBuilder;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.union4dev.anticheat.listener.ConnectionListener;
-import org.union4dev.anticheat.listener.PacketListener;
-import org.union4dev.anticheat.manager.ConfigManager;
-import org.union4dev.anticheat.player.PlayerData;
 
 import java.util.HashMap;
 import java.util.Map;

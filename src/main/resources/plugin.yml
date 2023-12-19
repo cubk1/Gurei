@@ -1,4 +1,4 @@
-name: AntiCheatBase
+name: Gurei
 version: ${project.version}
-main: org.union4dev.anticheat.AntiCheat
-author: Union4Dev
+main: dev.gurei.Gurei
+author: idk

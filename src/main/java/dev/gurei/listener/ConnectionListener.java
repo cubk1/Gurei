@@ -1,12 +1,12 @@
-package org.union4dev.anticheat.listener;
+package dev.gurei.listener;
 
 import com.github.retrooper.packetevents.event.PacketListenerAbstract;
 import com.github.retrooper.packetevents.event.PacketSendEvent;
 import com.github.retrooper.packetevents.event.UserDisconnectEvent;
 import com.github.retrooper.packetevents.protocol.packettype.PacketType;
 import com.github.retrooper.packetevents.protocol.player.User;
-import org.union4dev.anticheat.AntiCheatAPI;
-import org.union4dev.anticheat.player.PlayerData;
+import dev.gurei.player.PlayerData;
+import dev.gurei.AntiCheatAPI;
 
 public class ConnectionListener extends PacketListenerAbstract {
 

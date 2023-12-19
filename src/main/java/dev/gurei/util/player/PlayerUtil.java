@@ -1,4 +1,4 @@
-package org.union4dev.anticheat.util.player;
+package dev.gurei.util.player;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

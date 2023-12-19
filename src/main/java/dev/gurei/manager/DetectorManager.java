@@ -1,11 +1,12 @@
-package org.union4dev.anticheat.manager;
+package dev.gurei.manager;
 
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
 import com.github.retrooper.packetevents.event.PacketSendEvent;
-import org.union4dev.anticheat.detector.Detector;
-import org.union4dev.anticheat.detector.implement.badpackets.BadPacketSlot;
-import org.union4dev.anticheat.detector.implement.misc.SetBackConfirm;
-import org.union4dev.anticheat.player.PlayerData;
+import dev.gurei.detector.Detector;
+import dev.gurei.detector.implement.Block;
+import dev.gurei.detector.implement.Combat;
+import dev.gurei.detector.implement.Move;
+import dev.gurei.player.PlayerData;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,11 +17,9 @@ public class DetectorManager {
 
     public DetectorManager(PlayerData player) {
         registerDetector(
-                // BadPackets
-                new BadPacketSlot(player),
-
-                // Misc
-                new SetBackConfirm(player)
+                new Block(player),
+                new Combat(player),
+                new Move(player)
         );
     }
 

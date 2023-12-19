@@ -1,4 +1,4 @@
-package org.union4dev.anticheat.util.dataset;
+package dev.gurei.util.dataset;
 
 public class PlayerLocation {
     private double x;

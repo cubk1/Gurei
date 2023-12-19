@@ -6,4 +6,4 @@ flag-logger:
   # %detector% -> 检测名称
   # %vl% -> 该检测当前的vl
   # %detail% 被检测的细节原因
-  log-style: "%player% failed %detector% check vl=%vl%"
+  log-style: "%player% failed %detector% check vl=%vl% %detail%"

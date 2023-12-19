@@ -1,8 +1,8 @@
-package org.union4dev.anticheat;
+package dev.gurei;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class AntiCheat extends JavaPlugin {
+public class Gurei extends JavaPlugin {
 
     @Override
     public void onLoad() {

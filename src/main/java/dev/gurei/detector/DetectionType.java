@@ -1,7 +1,7 @@
-package org.union4dev.anticheat.detector;
+package dev.gurei.detector;
 
 public enum DetectionType {
-    BAD_PACKETS("BadPackets"), MISC("Misc");
+    SB("SB");
 
     private final String display;
 

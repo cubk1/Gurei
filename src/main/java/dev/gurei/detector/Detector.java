@@ -1,11 +1,11 @@
-package org.union4dev.anticheat.detector;
+package dev.gurei.detector;
 
 import com.github.retrooper.packetevents.event.PacketReceiveEvent;
 import com.github.retrooper.packetevents.event.PacketSendEvent;
+import dev.gurei.player.PlayerData;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.union4dev.anticheat.AntiCheatAPI;
-import org.union4dev.anticheat.player.PlayerData;
+import dev.gurei.AntiCheatAPI;
 
 public abstract class Detector {
 

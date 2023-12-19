@@ -1,12 +1,12 @@
-package org.union4dev.anticheat.manager;
+package dev.gurei.manager;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
-import org.union4dev.anticheat.player.PlayerData;
-import org.union4dev.anticheat.util.dataset.PlayerLocation;
-import org.union4dev.anticheat.util.player.PlayerUtil;
+import dev.gurei.player.PlayerData;
+import dev.gurei.util.dataset.PlayerLocation;
+import dev.gurei.util.player.PlayerUtil;
 
 import java.util.HashMap;
 import java.util.Map;
